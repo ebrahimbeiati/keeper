@@ -18,7 +18,26 @@ padding: 16px 32px;
 box-shadow: 0 0 10px 0 black inset;
 font-family: bold;
 font-size: 30px;
-  
-
   color: white;
+  text-align: center;
+}
+
+.footer{
+  background-color: #f5ba13;
+  margin: auto -16px;
+margin-top: 43%;
+  padding: 16px 32px;
+  text-align: center;
+  box-shadow: 0 0 10px 0 black inset;
+}
+
+.note{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+
 }
