@@ -1,11 +1,14 @@
 import React from 'react'
+import notes from '../notes'
 // create note for to do list 
-const Note = () => {
+const Note = (props) => {
   return (
-      <div className='note'>
-        <h1>This is note</h1>  
-      
+    <div className='note'>
+      <h1>{props.title}</h1>
+      <p>{props.content}</p>
     </div>
+     
+     
   )
 }
 
